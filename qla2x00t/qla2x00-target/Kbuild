@@ -20,7 +20,7 @@ ccflags-y :=	-I$(src)/../../scst/include		\
 #ccflags-y += -DCONFIG_QLA_TGT_DEBUG_SRR
 
 ifneq ($(BUILD_2X_MODULE),)
-ccflags-y += -DCONFIG_SCSI_QLA2XXX_TARGET=y
+ccflags-y += -DCONFIG_SCSI_QLA2XXX_TARGET=n
 endif
 
 obj-m := qla2x00tgt.o

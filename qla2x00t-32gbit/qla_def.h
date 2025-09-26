@@ -34,7 +34,6 @@
 #include <linux/unaligned.h>
 #endif
 #include <linux/mutex.h>
-#include "/root/scst/btree/btree.h"
 #include <linux/version.h>
 #include <linux/bsg-lib.h>	/* struct bsg_job */
 
